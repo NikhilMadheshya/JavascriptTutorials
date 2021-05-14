@@ -1,0 +1,22 @@
+<script>
+
+let person={
+    first_name:'Nikhil',
+    last_name:'Gupta'
+}
+
+let addInfo={
+    email:'nikhilmadheshya@gmail.com',
+    address:{
+        state:"Bihar",
+        district:"Siwan",
+        village:"Kewtaliya"
+    }
+}
+
+ let nextPerson={...person,...addInfo};
+
+// person=Object.assign(person,addInfo);
+
+console.log(nextPerson.address===addInfo.address);
+</script>

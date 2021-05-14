@@ -1,0 +1,61 @@
+
+
+❤️ What is function ?
+
+Ans : A cretain specific task is called as function in programming language.
+     Tasks can be anything depends what's you instruct to a computer.It 
+     provides reusability in codes.
+          OR
+     We can say function is a group of statements to perform certain specific 
+     task.            
+   
+   Syntax:-
+   function task_name()
+   {
+     statement--1
+     statement--2
+     statement--n
+   }
+
+
+  ⭐Types of function in javascript
+
+   1. Function statement  aka function declaration
+   2. Function expression => a function act like a variable
+   3. First  class function
+   4. Named Function expression => a function act like a varibale with name
+   5. Anonymous Function => a function witht a name 
+
+
+  
+
+
+First Class Function Here Means 
+a) Function can be treated like a value of some variable
+b) Function can be passed into another function
+c) Function can be returned from another function
+
+All these behaviours tells that javascript has first class function.
+
+
+⭐ There are two kinds fo a function
+       1) Pure Function  => Such functions are called pure because the do not attempt to
+         change inputs.
+         example:-
+
+         function add(a,b)
+         {
+           return a+b;
+         }  
+
+       2) Inpure Function =>In contrast ,this function is impure because it changes it's 
+         input
+       example:-
+
+       function withdraw(account,amount)
+       {
+         account.total-=amount;
+       }
+
+   
+       

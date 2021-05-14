@@ -1,0 +1,20 @@
+
+
+⭐ Most Remarkable Point
+
+   prototype => An obect using this we can add functions and properties into existing contructor function.
+                By doing this each instance can be able to use that properties and methods.
+
+                Syntax:-
+
+                func_name.prototype.prop_name=value
+
+                OR
+
+                func_name.prototype.func_name=function (){
+                    
+                }
+
+
+
+                

@@ -1,0 +1,41 @@
+
+⭐⭐ ⭐ Variable's Memory Scope
+
+In every programming language we need to store data temporarly to
+perform certain specific operations and to achieve this programs
+needs varibles.
+
+Each and every variable have their own memory location and typeof.
+
+📝 Apart from these they have another thing called memory scope.
+   Scope defines variable's accessibility.
+
+   There are two kinds of Memory Scope
+   
+   a. Global Area Memory Scope => If any variables,functions and blocks are in the global scope
+   b. Local Area Memory Scope  => If any variables.functions and blocks are in the local or a 
+   functional scope
+
+
+
+   In Javascript There are three keywords that defines variable scope
+
+   1. LET
+   2. CONST
+   3. VAR
+
+
+   🌟Variables defines with let and const are 
+      script scope,block scope,local scope  
+
+   🌟Variables defines with var are 
+     global scope and local scope  
+
+
+
+
+
+
+
+
+

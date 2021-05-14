@@ -1,0 +1,26 @@
+
+⭐⭐ An Arrow Function Was Came In ES6 version
+      
+ 📝 What is an arrow function ?
+
+ Answer: An arrow function is an another very simple and concise 
+         syntax of creating function expression.
+
+
+ syntax : - 
+         scope_definer func_name=()=>expression
+
+         => "This Symbol is called as Fat Arrow",Thats might be the 
+             another reason that people called it as FAT ARROW FUNCTION.
+
+
+Advantages:-
+1. Concise code as compare to regular function expression
+2. If you have only a single param you don't need to write inside round bracket
+3. If we have a single statement or a return statement we don't need to write 
+   return keyword.
+
+Disadvantage:-
+1. Can't bind with direct object
+
+

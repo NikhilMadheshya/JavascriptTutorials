@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>NkSourceGuide</h1>
+    <div class="info">
+     <h1>Javascript Tutorial</h1>
+     <p data-message>Learning DOM Manipulation in javascript!</p>
+     <input type="email" data-email autocomplete="off" > 
+     <button id='subscribe_btn'>subscribe</button>
+    </div>
+
+
+    <script>
+     const info=document.querySelector('.info');
+     const h1=document.querySelectorAll('h1')[0];
+     const email=document.querySelector('[data-email]');
+     const subscribeBtn=document.querySelector('#subscribe_btn');
+    
+     subscribeBtn.addEventListener('click',()=>{
+      
+        const message=document.querySelector('[data-message]');
+         message.style.color='green';
+         h1.style.color='red';
+         message.innerText=`${email.value} subscribed the channel !`;
+         document.querySelectorAll('h1')[1].remove();
+     })
+    
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<script>
+
+let email='nikhilmadheshya@gmail.com';
+let phone_no='6777777777';
+let fullname='Nikhil Gupta';
+let url='https://javascripttutorial.net';
+let pass='Something!123';  // home work to validate by breaking 
+let zip_code='841234'; // home work
+
+
+function registerData(){
+                           
+    let email_pattern=/^[A-Za-z0-9][A-Za-z0-9]+@[A-Za-z]{5,}\.[A-Za-z]+[A-Za-z.]*$/;
+    if(!email_pattern.test(email)) console.log("Invalid Email Address");
+   
+    let contact_pattern=/^[6789]\d{2}[-:]?\d{3}[-:]?\d{4}$/;  // 000-000-0000  000:000:000 
+    if(!contact_pattern.test(phone_no)) console.log("Invalid contact");
+
+    let name_pattern=/^[A-Z][a-z]+\s+[A-Z][a-z]+$/;
+    if(!name_pattern.test(fullname)) console.log("Invalid Given Name");
+
+    let url_pattern=/^https?:[/]{2,}[A-za-z0-9]+.[a-z]+[A-Za-z.]*$/;
+    if(!url_pattern.test(url)) console.log("Invalid URL address");
+   
+    let pass_pattern=/(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!]).{8,15}/;
+    if(!pass_pattern.test(pass)) console.log("Invalid Password");
+    
+    console.log("Valid All");
+
+
+}
+
+registerData();
+
+
+</script>

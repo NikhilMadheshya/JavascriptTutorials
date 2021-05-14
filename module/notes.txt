@@ -1,0 +1,17 @@
+
+⭐⭐ ES6 Module
+❤️❤️❤️ AWESOME THING 
+
+If you are using  browser that supports ES6 then you can interact 
+and accesss variable and function from another files.
+
+By importing and exporting function and variables using import 
+and export.
+
+✏️ To export function or a variables export keyword is used
+✏️ To import function or a variables import keyword is used
+
+📝 To export default export default 
+    "export default var_name or fun_name"  is used
+
+

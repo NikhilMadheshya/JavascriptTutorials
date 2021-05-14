@@ -1,0 +1,34 @@
+
+
+
+
+❤️❤️Ways of javascript code writing
+
+-------------->INLINE 
+-------------->INTERNAL 
+-------------->EXTERNALLY
+
+
+⭐ Difference between async And defer attribute
+⭐ Where should i write inside html file ?
+
+
+
+1.Internal Way => Writing JS codes inside html file(based on no of lines)
+2.External Way => Write JS codes outside html file(mostly use)
+3.Inline => single line statement(rarelu use)
+
+
+Async 
+---------
+When we use async attribute inside script tag then 
+html parsing js codes fetching synchoronously start
+but as soon as when js code fetching success then code of the 
+javascript execute rather than waiting to parse html file.
+
+Defer
+--------
+When we use defer attribute inside script tag then 
+html parsing js codes fetching synchoronously start
+but as soon as when js code fetching success then it 
+will wait until html parsing is completed.

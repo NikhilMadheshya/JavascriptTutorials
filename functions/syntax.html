@@ -1,0 +1,68 @@
+<script>
+// rest parameter ...param_name
+// rest paramater always must be last formal parameter
+
+function abc(...args) // formal parameter
+{
+ console.log(args);
+} 
+
+// function statement aka function declaration
+
+// abc(12,"Hello",{name:'Nikhil'}) // actual parameter
+
+
+
+var printHello=function()
+{
+    console.log("Hello Javascript ❤️");
+}
+// function expression
+// the major difference between function statement and function expression is hoisting
+
+// printHello();
+
+
+var add=function sum(a,b)
+{
+    console.log(`Sum is : ${(a+b)}`);
+}
+// named function expression
+// add(10,20)
+
+var pow=function(num,pow)
+{
+    return num**pow;
+}
+// console.log(pow(3,2));
+
+
+function greeting(greet)
+{
+   
+    return greet;
+}
+
+function greetTo(name,greetMessage)
+{
+let d=new Date();
+let msg='';
+if(d.getHours()<12)
+{
+ msg=`Good Morning! ${name}`
+}
+else{
+    msg=`Good Afternoon! ${name}`
+}
+return function(){
+   return  greetMessage(msg)
+};
+}
+
+let greetMessage=greetTo("Rahul",greeting);
+
+console.log(greetMessage());
+
+
+
+</script>

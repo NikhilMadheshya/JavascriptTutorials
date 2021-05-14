@@ -1,0 +1,50 @@
+
+⭐ Array
+
+Before dive into the definition let's talk some scenario!
+Let's suppose your app needs to store datas of based on application software
+And your app user has more than one or 100 what would you do ?
+Here an array comes into picture !
+
+Because each of the user's data values are different.
+And application needs some type of storage that can be able 
+to hold multiple data identified by specific user.
+
+
+In programming world to store multiple data array is used.
+
+❤️ Definition : An array is a collection to store multiple data.
+                An array is used to hold multiple records also.
+                
+
+SYNTAX :-
+scope_definer variable_name=['element',2,{name:'rohan'},4.5]
+
+
+⭐⭐
+ DO YOU KNOW GUYS SCOPE  what is scope_definer ?
+                        Answer: let,const,var 
+
+
+⭐Loop -
+Loop play a vital important role when it comes to 
+access,update,delete and add element in array.
+
+ Use Of Loop 
+ i.e - iterate or repeat something based on some condition
+
+
+TYPES OF LOOP IN JAVASCRIPT
+
+FOR -------------------->for
+WHILE------------------->while
+DO WHILE---------------->do while
+FOR IN------------------>for in
+FOR OF------------------>for of
+
+
+FOR EACH---------------->forEach
+  
+
+
+

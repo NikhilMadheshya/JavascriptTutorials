@@ -1,0 +1,59 @@
+
+
+
+😍 Most Commonly Used Predefined Array Functions
+--------------------------------------------
+1.  push() --> insert an element at last indexes  of an array  
+2.  pop()  --> delete an given elements at the last indexes of an array  
+3.  unshift() --> insert an given elements at the first indexes of an array  
+4.  shift()  --> delete an element at the first indexes of an array
+5.  slice()  --> used to get the sliced part of an array 
+6.  indexOf() --> return an index of a given element
+
+7.  splice() --> It can perform three crud operations
+                   update,delete and insert  
+
+                   1. when we update or delete some values of an array using splice 
+                      it will return an array  of updated and deleted elements 
+
+                   2. when we insert some values using splice it will return
+                      an empty array.
+
+
+8.  split()  ---> used to split string into array (string method !array)
+9.  join()   ---> used to join splitted array into string
+
+
+
+💯% ES 6 updated
+❣️ Un ignorable predefined array functions used in a projects
+--------------------------------------------------
+
+1.  forEach()
+2.  map()
+3.  filter()
+4.  reduce()
+5.  some()
+6.  every()
+7.  find()
+8.  findIndex()
+9.  sort()
+
+ 📝often used with an array of objects
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

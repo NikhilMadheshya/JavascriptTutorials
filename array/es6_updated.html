@@ -1,0 +1,144 @@
+<script>
+
+var employees=[ 
+    { name:'John Doe',job:'Backend Developer',sallary_per_month:40000,contact:77777777777 },
+    { name:'Beanel Denny',job:'Frontend Developer',sallary_per_month:30000,contact:2222222222 },
+    { name:'Genny Wang',job:'UI Designer',sallary_per_month:25000,contact:5555555555 },
+    { name:'Lokhantri Wala',job:'Project Manager',sallary_per_month:60000,contact:888888888 },
+    { name:'Dablu Bablu',job:'UI Designer',sallary_per_month:22000,contact:3333333333 },
+    { name:'Carryminati',job:'Game Developer',sallary_per_month:35000,contact:99999999 }
+            
+];
+
+
+let arranged=employees.sort(function(a,b){
+    if(a.name<b.name)
+       return 1;
+     else if(a.name===b.name)
+      return 0;
+      else
+      return -1;  
+});
+
+console.log(arranged);
+
+
+
+
+
+
+
+
+
+//some and every function returns boolean value i.e true or false 
+// if given condition matched
+
+// let right=employees.every(function(employee){
+//   return employee.sallary_per_month>35000;  
+// })
+
+// console.log(right);
+
+
+
+
+
+
+
+
+
+
+// it will return a founded element of first match
+
+// let info=employees.find(function(employee){
+//     return employee.contact===888888888;
+// });
+
+// console.log(info);
+
+
+
+
+// it will return an index of an array based on given condition
+// let index=employees.findIndex(function(employee){
+// return employee.contact===2222222225;
+// });
+
+// console.log(index);
+
+// let stock=[
+//     {
+//         product_name:'Dettol',product_price:10,sold_items:200,
+//     },
+//     {
+//         product_name:'Maggi',product_price:15,sold_items:100,
+//     },
+//     {
+//         product_name:'Gooday',product_price:20,sold_items:300,
+//     }
+// ];
+
+
+// let collected_money_after_sold=stock.reduce(
+// function(money_after_sold,product){
+
+// return money_after_sold+=product.product_price*product.sold_items;
+
+// },0);
+
+// console.log('Total money after sold',collected_money_after_sold);
+
+
+
+//var arr=[3,4,5,2]; // output sum of an array elements = 14
+
+
+// reduce function returns a single value
+// and state after each call always track until array size
+
+// let ans=arr.reduce(function(sum,val){  return sum+=val; },0)
+
+// console.log(ans);
+
+
+
+
+
+
+
+
+// filter call back functions returns boolean value
+// filter function returns an array of object based on given condition inside callback
+
+// let info_employe_above_30=employees.filter(function(employee){
+//     return employee.sallary_per_month>=30000;
+// })
+
+// console.log(info_employe_above_30);
+
+
+// map function returns an array
+// map function call backs returns value 
+// let emp_names=employees.map(function(employee){
+// return employee.name;
+// })
+// console.log(emp_names);
+
+
+
+// used for an array iteration can use with normal array elemets also
+// not tied with an object
+// employees.forEach(function(employee){
+
+//     console.log(`Name: ${employee.name}  Sallary: ${employee.sallary_per_month}`);
+
+// })
+
+
+
+
+
+
+
+
+</script>

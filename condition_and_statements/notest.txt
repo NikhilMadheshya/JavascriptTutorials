@@ -1,0 +1,60 @@
+
+⭐What is Condition?
+
+Answer: Here Condition is the scenario or a determination after taking some decision
+        to perform some operations and specific tasks.
+
+
+⭐What is statement?
+Answer: In programming language each and every line is a statement;
+
+
+To perform such kind of conditional operations in programming language
+there is something called selection operators i.e
+
+1. if(true_condition) else { false statements; }    
+2. nested if  ---> if within if
+3. ladder if else
+4. switch (Multi decision making)--> Faster as compare to if else
+
+
+
+
+⭐⭐ BLOCK 
+1.A block is enclosed by curly bracket { }.
+2.A block is used to group a mutiple statements and operations.
+3.It means if we have multiple statements we can use block.
+
+syntax :-{
+// statement 1;
+// statement n;
+or 
+// operation 1
+// operation 2
+}
+
+
+⭐ Switch Conditions
+
+🤔 syntax
+-----------
+
+switch(what_is_the_choice)
+{
+    case matched_choice:
+    // statement 1st
+    break;
+    case matched_choice:
+    // statement 2nd
+    break;
+    case matched_choice:
+    // statement n
+    break;
+    default:
+    // all failed 
+    break ; // not compulsery because ther is no any condition after this
+}
+
+// break is used to exit from the BLOCK 
+
+

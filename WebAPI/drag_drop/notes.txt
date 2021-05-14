@@ -1,0 +1,41 @@
+
+⭐⭐⭐ WEB API (DRAG AND DROP);
+
+✏️HTML5 spec specifies that almost all elements can be draggable.
+To make an element draggable, you add the draggable property with 
+the value of true to its HTML tag.
+
+Events on draggable elements
+When you drag an element, these events fire in the following sequence:
+
+⭐dragstart
+⭐drag
+⭐dragend
+
+✏️When you hold a mouse button and begin to move the mouse, the dragstart 
+event fires on the draggable element that you’re dragging. The cursor 
+changes to a no-drop symbol (a circle with a line through it) to indicate 
+that you cannot drop the element on itself.
+
+
+⭐⭐Events on drop targets
+
+When you drag an element over a valid drop target, these events fire in the following sequence:
+
+dragenter
+dragover
+dragleave or drop
+
+
+⭐⭐ Transfer data using dataTransfer object
+
+To transfer data in a drag-and-drop action, you use the dataTransfer object.
+The dataTransfer object is a property of the event. It allows you to transfer 
+data from the dragged element to the drop target.
+
+The dataTransfer object has two methods: setData() and getData().
+
+✏️ The setData() allows you to set the drag operation’s data to the specified 
+format and data:
+
+✏️The getData() method retrieves the drag data stored by the setData() method.

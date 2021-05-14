@@ -1,0 +1,22 @@
+<script>
+
+function Student(name,roll)
+{
+    this.name=name
+    this.roll=roll
+}
+
+Student.prototype.getInfo=function()
+{
+    console.log(`Student Name: ${this.name} Roll No: ${this.roll} ${this.school}`)
+}
+Student.prototype.school="School Name"
+
+let s1=new Student("Rahul",23);
+
+s1.getInfo();
+
+
+
+
+</script>

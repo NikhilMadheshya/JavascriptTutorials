@@ -1,0 +1,21 @@
+*{
+    margin: 0; padding:0; font-family: sans-serif;
+}
+
+.container{
+    padding: 10px;
+    background: #111;
+    margin: 10px 0;
+}
+
+.draggable{
+    padding: 5px;
+    background: #fff;
+    color:#111;
+    border:1px solid #000;
+    margin: 5px 0;
+}
+
+.dragging{
+    opacity: .5;
+}

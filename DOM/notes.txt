@@ -1,0 +1,36 @@
+
+⭐⭐ DOM => Stands For Document Object Model
+
+Document --> Your html file
+Object   --> Your tags inside html document
+Model    --> Structure of a document
+
+We can perform CRUD with DOM objects called  DOM Manipulation
+That is - 
+          Create Element
+          Read Element
+          Update Element
+          Delete Element
+
+
+⭐Accessing DOM elements
+
+To access DOM Element there is method for document objects.
+
+--- getElementById('#id_name'); 
+
+--- getElementsByClassName('.class_name');
+
+--- getElementsByTagName('tagname');
+
+--- getElementsByName('some'); for example   <some name="some" /> 
+
+
+📝Most Convenient Methods
+
+--- querySelector(); id=> '#id_name'  class=> ".class_name" attr_name
+
+--- querySelectorAll();
+
+          
+

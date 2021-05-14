@@ -1,0 +1,100 @@
+
+⭐⭐⭐ Regular Expression
+⭐⭐⭐⭐Must Known To Each Developers
+
+📝What is Regular Expression ?
+
+Ans: An object that describes a pattern of characters which is used 
+     to perform pattern matching and "search and replace".
+
+📝Modifiers
+   g   => perform a global match
+   i   => perform case -insensitive match 
+   m   => perform multiline matching
+
+
+⭐ How complex is regex ❓ 
+
+Ans: It's not complex first of all !
+     Few people says i'ts 😱 because they don't know the use of regex symbols.
+     But I am here to explain each symbol of regex 
+
+
+   SYNTAX :-
+     Example
+
+    let str="someone@gmail.com"   
+ 
+     let reg=new RegExp('pattern','modifier');  
+
+     let reg=/pattern/modifier;
+
+
+
+
+⭐⭐REGEX SYMBOLS 😃Yee!
+
+
+
+ How do we describe with regex symbol❓
+
+ Ans: We can describe in a series of occurence . 
+
+
+
+❤️ We will cover basic form vaildaion pattern also later 
+   you can use in your projects.
+   Definitely reduce an efforts means single line is enough to validate 
+   any specific characters.   
+
+
+📝 There are mainly four types of symbols in regex
+    1. Characters Sets
+    2. Meta Characters
+    3. Quantifiers
+    4. Shorthand Characters
+
+
+
+
+
+
+
+📝Character Sets:-
+
+[A-Z]   => Used to find upercase letters
+[a-z]   => Used to find lowercase letters
+[0-9]   => Used to find a digits
+[7a8bc] => Used to find a any characters inside square bracket
+(a|8|@) => Used to find alternate characters inside square bracket
+
+for non 
+[^A-Z]   => Used to find non  upercase letters
+
+📝Meta Characters :-
+
+^    => match the string starts with
+$    => match the string ends with
+.    => used to match the single any character 
+?    => match the optional character
+*    => 0 or more occurence
++    => 1 or more occurence
+(?=) => match the character followed by
+\   => to escape regex character  
+
+
+📝@uantifiers => Basically describe an occurence like how many
+char{range}
+char{min_range,max_range}
+
+Shorthand Characters :-
+
+\d => for digit
+\D => for non digit
+\s => for white space
+\S => not for white space
+\w => for word character
+\W => for non word
+\n => for line change
+There are lots but this much is enough 
+

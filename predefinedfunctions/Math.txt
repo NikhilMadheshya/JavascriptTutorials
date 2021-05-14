@@ -1,0 +1,26 @@
+Math Commonly used Predefined Functions 
+
+All are static method because you can also see that function is called by
+class name.
+
+Math.ceil() // always rounds a number up to the next largest integer
+            // if(negative) return largest negative value
+            -35.30
+            -35
+
+Math.floor() // returns the largest integer less than or equal to given number
+             // if(negative) return smallest negative  value
+             -35.30
+             -36
+             
+
+
+Math.sign() // used to know the sign of a number, indicating whether the number is   
+               positive or negative
+
+Math.abs() // return Positive value only
+
+Math.sqrt() // uset to find sqrt
+
+
+⭐

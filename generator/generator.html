@@ -1,0 +1,19 @@
+<script>
+
+function* generateSequence(start,steps,end)
+{
+   let num=start;
+   
+   while(num<end)
+       yield (num=num+steps);
+
+}
+
+const gen=generateSequence(0,1,10);
+
+for(let value of gen)
+  console.log(value);
+
+
+
+</script>

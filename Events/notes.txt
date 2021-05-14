@@ -1,0 +1,22 @@
+
+⭐⭐Events In Javascript
+
+What is an events ❓
+
+Ans : In general some specific intended tasks on specific date and time 
+      or unpredictable incident happenning accidentally. 
+      
+      As same to deals with codes in javascript we have to registered
+      UI components to perform certain specific tasks based on 
+      events .
+
+      Like
+      Input Events (input,blur,focus,change...)
+      Keys Events (up,down,press...)
+      Mouse Events (hover,click,leave,dragg...)
+
+      
+
+      
+
+          

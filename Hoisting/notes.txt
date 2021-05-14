@@ -1,0 +1,47 @@
+
+❤️AWESOME CONCEPT IN JAVASCRIPT
+
+⭐What is Hoisting?
+
+Only for learning purpose
+ Ans: Hoisting is the concept in javascript where function defination and 
+      variable declaraion move to the top of the program before exection.
+
+
+🤔 But How ?
+ Wait!
+ Whenever you execute your js code a "GLOBAL EXECUTION CONTEXT" is created.
+ Think it like a big box or a container.It has two components
+
+ (i) Memory Component => Where variabe and functions are allocated in 
+                        a key value pair.Also called it as a variable 
+                        environment.
+
+(ii)Code  Component => Where  code is execute only one task at a time.
+                       Also callesd it as Thread Of Execution.
+
+
+Allocation of memory done first and for a time being variable is not innitialize
+value undefined is stored as a temporary value.
+What about function ?
+Whole code is stored.
+
+That's the reason we can be able to access the variable before innitialization.
+
+
+                           GLOBAL EXECUTION CONTEXT
+--------------------------------------------------------------------------------
+     MEMORY COMPONENT                   |           CODE COMPONENT
+     key:value,
+     key:fun(){
+        ......
+    }
+
+ 🌟After Memory Allocation Coding Part Is DONE 
+
+
+
+
+ 📝Note For each function calls "LOCAL EXECUTION CONTEXT IS CREATED" .
+
+   

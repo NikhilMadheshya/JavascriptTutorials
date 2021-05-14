@@ -1,0 +1,30 @@
+
+
+🌟What is Looping aka 'Loop' ?
+
+In general looping means repeating something again and again.
+When we talk about repeating then there is two way either you
+repeat  numbers of times as you want or infinite.
+
+
+Applications of loop in programming language 
+
+1. Iteration and mapping
+2. Number Series 
+3. Creating something in a large numbers
+4. Arranging Array
+5. Deleting some value of an  array
+6. Updating some value of an array
+7. Much More
+
+
+
+
+❤️TYPES OF LOOP IN JAVASCRIPT
+
+FOR -------------------->for
+WHILE------------------->while
+DO WHILE---------------->do while
+FOR IN------------------>for in
+FOR OF------------------>for of
+

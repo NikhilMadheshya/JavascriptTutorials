@@ -1,0 +1,42 @@
+<script>
+
+let str="Rohan is a good boy!,He IS a software developer";
+
+let reg=/is/ig;
+
+
+// 1 exec returns null for no match and array for match
+
+// let result=null;
+
+// while((result=reg.exec(str)))
+// {
+// console.log(result[0]);
+// console.log(result.index);
+// console.log(result.input);
+// }
+
+// test returns true for match and false for no match
+if(reg.test(str))
+{
+    console.log("Pattern Matched");
+   // string's method that can accept regex also
+   // match returns null for no match and array for match that contains
+   // matches string or chars
+   console.log(str.match(reg)); 
+  // replace str method to replace
+  
+  str=str.replace(reg,"was"); 
+
+}
+else{
+    console.log("Pattern Not  Matched")
+}
+
+
+console.log(str);
+
+
+
+
+</script>

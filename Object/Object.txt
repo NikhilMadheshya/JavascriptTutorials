@@ -1,0 +1,54 @@
+
+⭐ What is an object ?
+
+Ans: In javascript an object is a encapsulted thing of properties and methods.
+     Properties are nothing but a variable with values based on object.
+     And method is a functions based on object.
+
+     📝Basically used to describe  properties of any specific living or non living
+     things.
+
+
+
+     📝Syntax 
+     ------
+     scope_definer object_name={
+         key1:value,
+         key2:function()
+         {
+
+         },
+        key3:value
+     }
+    
+    Example :-
+
+     let student={
+        name:'someone',
+        roll:23,
+        getName:function()
+        {
+            return this.name;
+        }
+    }
+
+    student.name // someone
+    student.getName() // someone
+
+    student['name'];
+    student['getName']();
+
+
+
+  
+    📝We can access property of an object using '.' or by object_name['keyname']
+
+    
+  
+
+⭐ ⭐ ⭐Object Merging 
+
+There are two ways to merge an object that is by using (...) or assign() method of An Object.
+
+
+
